@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/pre-dexed/debug/classes-a6348c1a40837b38686e596bb66b4502657940c2.jar" />
+    </item>
+    <item
+        jar="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/pre-dexed/debug/classes-62519daba8a6c9ca97764b2cae9bf75ba1a63af4.jar" />
+    </item>
+    <item
+        jar="/Users/dagrawa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-a72321d9157e7b94c30fb41be56136aeab3e9148.jar" />
+    </item>
+    <item
+        jar="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-391e26a83c8a7e78434e6c91bff4491977c9c730.jar" />
+    </item>
+    <item
+        jar="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/pre-dexed/debug/classes-9758cdcff7a87180f156a0262743a656c00320da.jar" />
+    </item>
+    <item
+        jar="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/pre-dexed/debug/classes-f86515081e5a29e1d5a9d3f9c855495bf5232952.jar" />
+    </item>
+    <item
+        jar="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/dagrawa/Desktop/WalmartHackhathon/WalmartHack315/app/build/intermediates/pre-dexed/debug/classes-6cb1eafdbeac998c294fcb63ca87478fc09b291e.jar" />
+    </item>
+
+</items>

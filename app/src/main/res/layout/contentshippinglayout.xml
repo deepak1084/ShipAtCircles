@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:showIn="@layout/activity_main"
+    android:touchscreenBlocksFocus="false"
+    android:theme="@style/Animation.AppCompat.DropDownUp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Delivery Address"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:autoText="false"
+        android:focusable="true"
+        android:textColorHighlight="#030303" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personnal Address"
+            android:textStyle="bold"
+            android:id="@+id/radioButton"
+            android:layout_weight="0.04"
+            android:layout_marginTop="20dp"
+            android:checked="true"
+            android:focusableInTouchMode="false"
+            android:focusable="true" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:text = "Walamart Labs bangalore "
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal"
+            android:editable="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:text = "560034"
+            android:ems="10"
+            android:id="@+id/ZipCodeShippingPage" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:text="Ship To My personnal Address"
+            android:id="@+id/submitToPersonal"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+
+
+            android:textAlignment="gravity"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community Address"
+            android:textStyle="bold"
+
+            android:id="@+id/radioButton2"
+            android:layout_marginTop="40dp"
+            android:checked="false"
+            android:layout_marginBottom="10dp"
+            android:focusableInTouchMode="false"
+            android:focusable="true"
+            android:ellipsize="middle" />
+    </RadioGroup>
+
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="363dp"
+        android:layout_height="232dp"
+        android:layout_above="@id/radioButton2"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="50dp"
+        android:layout_weight="1"
+
+        android:layout_marginTop="10dp"
+        android:focusableInTouchMode="true"
+        android:visibility="visible"
+        android:theme="@style/AlertDialog.AppCompat.Light"
+        android:choiceMode="multipleChoice" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ship To One Of the Group Address"
+        android:id="@+id/submitToCommunity"
+        android:layout_below="@id/list"
+        android:background="@drawable/button"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:textAlignment="gravity"
+        android:textColor="#ffffff" />
+
+
+
+</LinearLayout>
